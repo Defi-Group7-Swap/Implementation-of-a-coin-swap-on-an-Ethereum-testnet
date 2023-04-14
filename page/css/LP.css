@@ -1,0 +1,168 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+.container {
+  height: 100%;
+  background: #f0e68c;
+}
+.futura {
+  font-family: "Futura", sans-serif;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  /* background-image: url("../images/green.png"); */
+}
+
+#header {
+  height: 100px;
+  width: 100%;
+}
+
+#header img {
+  margin: 0 30px 0 30px;
+}
+
+#header button {
+  font-size: 18px;
+  height: 40px;
+  width: 150px;
+  float: right;
+  margin: 30px 30px 30px 0;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+}
+#header button:hover {
+  transition: 0.3s;
+  /* background-color: #f0e68c; */
+  background-color: powderblue;
+  color: white;
+}
+#on {
+  background-color: powderblue;
+  color: white;
+}
+
+#mainbody {
+  text-align: center; /*让div内部文字居中*/
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(50px);
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#mainbody:hover {
+  transition: 0.7s;
+  -webkit-box-shadow: #666 0px 0px 10px;
+  -moz-box-shadow: #666 0px 0px 10px;
+  box-shadow: #666 0px 0px 20px;
+}
+
+#mainbody #pooloption {
+  float: left;
+  height: 30%;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  display: flex;
+  align-items: center; /*垂直居中*/
+  justify-content: center; /*水平居中*/
+}
+
+#LP {
+  margin-top: 130px;
+}
+
+#LP button {
+  font-size: 18px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+  background-color: powderblue;
+  color: white;
+}
+
+#LP input {
+  font-family: "Futura", sans-serif;
+  font-size: 15px;
+  border-width: 0px;
+  border-style: none;
+  border-bottom: 5px solid #f0e68c;
+}
+
+#mainbody #tokenoption {
+  text-align: right;
+  font-size: 18px;
+  margin-top: 150px;
+  height: 30%;
+  width: 80%;
+  position: absolute;
+}
+
+#message {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 60px;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+#LPTokenAddress {
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+  background-color: #f0e68c;
+}
+
+select {
+  text-align: center;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+}
+#iselect-body {
+  width: 400px;
+  border-radius: 16px;
+}
+/* 定义自己的select */
+.ifrom-select {
+  border-radius: 16px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* 地下的图片，省去写下三角括号，简单实用，到处兼容（这里与上面的ifrom-select可以合到一起，为了突出这里所以分开了） */
+.ifrom-select-background {
+  background: url("../images/arrow-down-pink.png") no-repeat scroll right center
+    transparent;
+  background-size: 1.99rem 1.99rem;
+  /* background-size: 20px 20px; */
+}
+option {
+  font-size: 18px;
+  text-decoration: none;
+}
+select option:checked {
+  /* background-color: #92d2956e; */
+}
+input {
+  background-color: transparent;
+}

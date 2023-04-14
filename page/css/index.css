@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+.container {
+  height: 100%;
+  background: #f0e68c;
+}
+.futura {
+  font-family: "Futura", sans-serif;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/indexbg.png");
+  background-size: cover;
+}
+
+#header {
+  height: 100px;
+  width: 100%;
+}
+
+#header img {
+  margin: 0 30px 0 30px;
+}
+
+#header button {
+  font-size: 18px;
+  height: 40px;
+  width: 150px;
+  float: right;
+  margin: 30px 30px 30px 0;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+}
+#header button:hover {
+  transition: 0.3s;
+  /* background-color: #f0e68c; */
+  background-color: powderblue;
+  color: white;
+}
+
+#mainbody {
+  text-align: center; /*让div内部文字居中*/
+  /* background-color: #fff; */
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#mainbody img {
+  margin-top: 100px;
+  width: 500px;
+  border-radius: 20px;
+}
+#mainbody img:hover {
+  transition: 0.7s;
+  -webkit-box-shadow: #fff 0px 0px 10px;
+  -moz-box-shadow: #fff 0px 0px 10px;
+  box-shadow: #fff 0px 0px 20px;
+}
+
+#go {
+  font-size: 30px;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  border-width: 0px;
+}
+#go:hover {
+  transition: 0.7s;
+  -webkit-box-shadow: #666 0px 0px 10px;
+  -moz-box-shadow: #666 0px 0px 10px;
+  box-shadow: #666 0px 0px 20px;
+}

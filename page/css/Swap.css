@@ -1,0 +1,175 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+.container {
+  height: 100%;
+  background: #f0e68c;
+}
+.futura {
+  font-family: "Futura", sans-serif;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  /* background-image: url("../images/pink.png"); */
+}
+
+#header {
+  height: 100px;
+  width: 100%;
+}
+
+#header img {
+  margin: 0 30px 0 30px;
+}
+
+#header button {
+  font-size: 18px;
+  height: 40px;
+  width: 150px;
+  float: right;
+  margin: 30px 30px 30px 0;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+}
+#header button:hover {
+  transition: 0.3s;
+  /* background-color: #f0e68c; */
+  background-color: powderblue;
+  color: white;
+}
+#on {
+  background-color: powderblue;
+  color: white;
+}
+
+#mainbody {
+  text-align: center; /*让div内部文字居中*/
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(50px);
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#mainbody:hover {
+  transition: 0.7s;
+  -webkit-box-shadow: #666 0px 0px 10px;
+  -moz-box-shadow: #666 0px 0px 10px;
+  box-shadow: #666 0px 0px 20px;
+}
+
+#mainbody #pooloption {
+  float: left;
+  height: 30%;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  display: flex;
+  align-items: center; /*垂直居中*/
+  justify-content: center; /*水平居中*/
+}
+
+#mainbody #tokenoption {
+  text-align: right;
+  font-size: 18px;
+  margin-top: 150px;
+  height: 30%;
+  width: 80%;
+  position: absolute;
+}
+
+#tokenoption input {
+  font-family: "Futura", sans-serif;
+  font-size: 15px;
+  border-width: 0px;
+  border-style: none;
+  border-bottom: 5px solid #f0e68c;
+}
+#mainbody #ratemsg {
+  text-align: center;
+  margin-top: 220px;
+  height: 30%;
+  width: 100%;
+}
+
+#ratemsg button {
+  font-size: 18px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+  background-color: powderblue;
+  color: white;
+}
+#ratemsg button:hover {
+  transition: 0.3s;
+  background-color: pink;
+  color: white;
+}
+
+#message {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 130px;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+select {
+  text-align: center;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+}
+#iselect-body {
+  background: #fbf0f0;
+  width: 400px;
+  border-radius: 16px;
+}
+/* 定义自己的select */
+.ifrom-select {
+  border-radius: 16px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* 地下的图片，省去写下三角括号，简单实用，到处兼容（这里与上面的ifrom-select可以合到一起，为了突出这里所以分开了） */
+
+option {
+  font-size: 18px;
+  text-decoration: none;
+}
+select option:checked {
+  /* background-color: #ffc3df; */
+}
+
+.token-select {
+  border-radius: 12px;
+  width: 80px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.token-select-background {
+  background: url("../images/arrow-down-black.png") no-repeat scroll right
+    center #f0e68c;
+  background-size: 1rem 1rem;
+}
+input {
+  background-color: transparent;
+}
