@@ -49,3 +49,5 @@ yarn hardhat deploy --network sepolia
 ```
 
 in the command line, and deploy the project files on any server. Finally, connect Metamask to the sepolia network and open it through the browser.
+
+CurveAMM.sol 's curve formula refers to https://github.com/mrWojackETH/StableSwapAMM/blob/main/contracts/StableSwap.sol.
