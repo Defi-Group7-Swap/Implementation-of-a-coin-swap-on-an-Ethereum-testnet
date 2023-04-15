@@ -50,7 +50,7 @@ yarn hardhat deploy --network sepolia
 
 in the command line, and deploy the project files on any server. Finally, connect Metamask to the sepolia network and open it through the browser.
 
-### Remork
+### Remark
 
 Addresses already deployed on the sepolia：
 
